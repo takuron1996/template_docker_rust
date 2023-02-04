@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: containers/rust/Dockerfile
+    volumes:
+      - ./application:/application
+    tty: true
