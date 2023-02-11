@@ -91,6 +91,5 @@
         "rust-lang.rust-analyzer"
     ],
     // 起動するサービス (空にしておくとdocker-compose.ymlにあるサービスが全て起動する)
-    "runServices": [],
-    "postCreateCommand": "poetry install"
+    "runServices": []
 }
